@@ -1,44 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Catálogo de AnyAnime -->
-<catalogo propietario="angelcarneros">
-  <lista_anime>
-
-    <anime id="001">
-      <titulo>Dragon Ball Z</titulo>
-      <genero>Shonen</genero>
-      <duracion unidad="min">24.0</duracion>
-      <descripcion>¡Goku descubre que es un saiyajin, un guerrero nacido para el combate! Desde ese día, él y los Guerreros Z deberán proteger la Tierra de Vegeta, Freezer, Cell y Majin Buu.
-Con el Kamehameha y el poder del Super Saiyajin, superarán sus límites una y otra vez.
-¡Reúne las siete Dragon Balls y lucha por los que quieres!</descripcion>
-      <destacado/>
-    </anime>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!-- Catálogo de AnyAnime (titulo, descricion, duracion de capitulo y genero). -->
+  <catalogo propietario="angelcarneros">
     
-    <anime id="002">
-      <titulo>Jujutsu Kaisen</titulo>
-      <genero>Shonen</genero>
-      <duracion unidad="min">24.0</duracion>
-      <descripcion>Yuji Itadori, un estudiante con una fuerza física extraordinaria, se ve arrastrado al mundo de las maldiciones cuando devora un dedo de Ryomen Sukuna, el Rey de las Maldiciones. Ahora comparte cuerpo con él.
-Para sobrevivir, ingresa en la Escuela de Hechicería de Tokio junto a Megumi y Nobara, bajo la guía del imponente Satoru Gojo. Juntos exorcizarán maldiciones y se enfrentarán a enemigos que quieren cambiar el mundo.
-¡Domina tu energía maldita y lucha por los que no pueden defenderse!</descripcion>
-    </anime>
+    <lista_anime>
+      <anime id="001">
+        <titulo>Dragon Ball Z</titulo>
+        <genero>Shonen</genero>
+        <duracion>24 min</duracion>
+        <descripcion>¡Goku descubre que es un saiyajin, un guerrero nacido para el combate! Desde ese día, él y los Guerreros Z deberán proteger la Tierra de Vegeta, Freezer, Cell y Majin Buu.
+  Con el Kamehameha y el poder del Super Saiyajin, superarán sus límites una y otra vez.
+  ¡Reúne las siete Dragon Balls y lucha por los que quieres!</descripcion>
+        <destacado/>
+      </anime>
+      
+      <anime id="002">
+        <titulo>Jujutsu Kaisen</titulo>
+        <genero>Shonen</genero>
+        <duracion>24 min</duracion>
+        <descripcion>Yuji Itadori, un estudiante con una fuerza física extraordinaria, se ve arrastrado al mundo de las maldiciones cuando devora un dedo de Ryomen Sukuna, el Rey de las Maldiciones. Ahora comparte cuerpo con él.
+  Para sobrevivir, ingresa en la Escuela de Hechicería de Tokio junto a Megumi y Nobara, bajo la guía del imponente Satoru Gojo. Juntos exorcizarán maldiciones y se enfrentarán a enemigos que quieren cambiar el mundo.
+  ¡Domina tu energía maldita y lucha por los que no pueden defenderse!</descripcion>
+      </anime>
 
-    <anime id="003">
-      <titulo>Gintama</titulo>
-      <genero>Comedia</genero>
-      <duracion unidad="min">24.0</duracion>
-      <descripcion>En un Japón invadido por alienígenas, Gintoki Sakata, un antiguo samurái vago y adicto al dulce, sobrevive haciendo cualquier trabajo que le encarguen junto a Shinpachi y Kagura.
-Entre parodias, situaciones absurdas y alguna que otra pelea seria, cada encargo acaba convirtiéndose en un desastre.
-¡Ríete sin parar con el samurái más perezoso de Edo!</descripcion>
-    </anime>
+      <anime id="003">
+        <titulo>Gintama</titulo>
+        <genero>Comedia</genero>
+        <duracion>24 min</duracion>
+        <descripcion>En un Japón invadido por alienígenas, Gintoki Sakata, un antiguo samurái vago y adicto al dulce, sobrevive haciendo cualquier trabajo que le encarguen junto a Shinpachi y Kagura.
+  Entre parodias, situaciones absurdas y alguna que otra pelea seria, cada encargo acaba convirtiéndose en un desastre.
+  ¡Ríete sin parar con el samurái más perezoso de Edo!</descripcion>
+      </anime>
 
-    <anime id="004">
-      <titulo>Another</titulo>
-      <genero>Terror</genero>
-      <duracion unidad="min">24.0</duracion>
-      <descripcion>Koichi Sakakibara se traslada al instituto Yomiyama Norte, donde una misteriosa maldición persigue a la clase 3-3 desde hace años. Una compañera, Mei Misaki, parece invisible para todos los demás.
-Cuando empiezan a sucederse muertes inexplicables, Koichi y Mei deberán descubrir el secreto de la clase antes de que sea demasiado tarde.
-¡Desvela la maldición si te atreves!</descripcion>
-    </anime>
-    
-  </lista_anime>
-</catalogo>
+      <anime id="004">
+        <titulo>Another</titulo>
+        <genero>Terror</genero>
+        <duracion>24 min</duracion>
+        <descripcion>Koichi Sakakibara se traslada al instituto Yomiyama Norte, donde una misteriosa maldición persigue a la clase 3-3 desde hace años. Una compañera, Mei Misaki, parece invisible para todos los demás.
+  Cuando empiezan a sucederse muertes inexplicables, Koichi y Mei deberán descubrir el secreto de la clase antes de que sea demasiado tarde.
+  ¡Desvela la maldición si te atreves!</descripcion>
+      </anime>
+      
+       <anime id="005">
+        <titulo>ANIME</titulo>
+        <genero>GENERO</genero>
+        <duracion>24 min</duracion>
+        <descripcion>asawdawdawdawdwa</descripcion>
+      </anime>
+
+    </lista_anime>
+  </catalogo>
