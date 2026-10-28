@@ -1,7 +1,18 @@
-**propietario - angelcarneros**
+# Proyecto Integrador LM 2026 · AnyAnime
 
+**Propietario:** angelcarneros
 
-**palabra del día - Meta**
+---
 
+## Palabras del día
 
-**palabra del día - Contexto**
+- **Meta**
+- **Contexto**
+
+---
+
+## UD3 · Estructura HTML
+
+-
+-
+-
