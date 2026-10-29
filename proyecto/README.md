@@ -34,3 +34,20 @@
 | resenas-gintama.html | Reseña de Gintama \| AnyAnime | Reseña y valoración de Gintama. |
 | resenas-another.html | Reseña de Another \| AnyAnime | Reseña y valoración de Another. |
 
+--- 
+
+### Errores del validador W3C
+
+| Página | Errores encontrados | Cómo lo corregí |
+|---|---|---|
+| index.html | 0 errores | No hizo falta corregir nada. |
+| catalogo.html | 0 errores | No hizo falta corregir nada. |
+| descripcion-swordartonline.html | 0 errores | No hizo falta corregir nada. |
+| descripcion-jujutsukaisen.html | 0 errores | No hizo falta corregir nada. |
+| descripcion-gintama.html | 0 errores | No hizo falta corregir nada. |
+| descripcion-another.html | 0 errores | No hizo falta corregir nada. |
+| resenas-swordartonline.html | 0 errores | No hizo falta corregir nada. |
+| resenas-jujutsukaisen.html | 0 errores | No hizo falta corregir nada. |
+| resenas-gintama.html | 0 errores | No hizo falta corregir nada. |
+| resenas-another.html | 0 errores | No hizo falta corregir nada. |
+| datos.xml | "Schema Error": el validador W3C es de HTML y el XML no declara esquema. | No es un error del fichero: comprobé que está bien formado abriéndolo en el navegador. |
