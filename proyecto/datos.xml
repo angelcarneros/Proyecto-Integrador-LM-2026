@@ -12,6 +12,7 @@ La única salida es superar los 100 pisos del castillo flotante de Aincrad. Kiri
 ¡Empuña tu espada y sobrevive en Aincrad!</descripcion>
       <destacado/>
     </anime>
+
     <anime id="002">
       <titulo>Jujutsu Kaisen</titulo>
       <genero>Shonen</genero>
@@ -20,6 +21,7 @@ La única salida es superar los 100 pisos del castillo flotante de Aincrad. Kiri
 Para sobrevivir, ingresa en la Escuela de Hechicería de Tokio junto a Megumi y Nobara, bajo la guía del imponente Satoru Gojo. Juntos exorcizarán maldiciones y se enfrentarán a enemigos que quieren cambiar el mundo.
 ¡Domina tu energía maldita y lucha por los que no pueden defenderse!</descripcion>
     </anime>
+
     <anime id="003">
       <titulo>Gintama</titulo>
       <genero>Comedia</genero>
@@ -28,6 +30,7 @@ Para sobrevivir, ingresa en la Escuela de Hechicería de Tokio junto a Megumi y 
 Entre parodias, situaciones absurdas y alguna que otra pelea seria, cada encargo acaba convirtiéndose en un desastre.
 ¡Ríete sin parar con el samurái más perezoso de Edo!</descripcion>
     </anime>
+    
     <anime id="004">
       <titulo>Another</titulo>
       <genero>Terror</genero>
