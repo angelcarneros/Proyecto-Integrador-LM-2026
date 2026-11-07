@@ -52,3 +52,7 @@
 | resenas-gintama.html | 0 errores | No hizo falta corregir nada. |
 | resenas-another.html | 0 errores | No hizo falta corregir nada. |
 | datos.xml | "Schema Error": el validador W3C es de HTML y el XML no declara esquema. | No es un error del fichero: comprobé que está bien formado abriéndolo en el navegador. |
+
+---
+
+## UD5 · Tablas y formularios
