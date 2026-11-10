@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- Autor: Ángel -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | AnyAnime</title>
+  <meta name="description" content="Formulario de contacto de AnyAnime para enviar sugerencias de anime y opiniones sobre la web.">
+  <meta name="keywords" content="anime, contacto, sugerencias, formulario, AnyAnime">
+  <meta name="author" content="angelcarneros">
+</head>
+<body>    
+    
+  <!-- NAV: aquí irá el menú (UD4) -->
+
+
+  <!-- Cabecera: banner, título principal y presentación -->
+  <div>
+    <a href="index.html"><img src="img/anyanime-banner.png" alt="Banner de AnyAnime" width="300"></a>
+    <h1>Contacto</h1>
+    <p>¿Quieres que reseñemos un anime nuevo o tienes alguna opinión sobre la web? Escríbenos.</p>
+  </div>
+
+  <hr>
+  <!-- Formulario de contacto: datos del usuario y su sugerencia -->
+  <div>
+    <form action="#" method="post">
+
+      <!-- Fieldset 1: datos personales del usuario -->
+      <fieldset>
+        <legend>Tus datos</legend>
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required maxlength="50" placeholder="Ej.: Kirito" autofocus>
+        </p>
+        <p>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+        </p>
+        <p>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" maxlength="9" placeholder="600123456">
+        </p>
+      </fieldset>
+
+      <!-- Fieldset 2: sugerencia y opinión sobre anime -->
+      <fieldset>
+        <legend>Tu sugerencia</legend>
+        <p>
+          <label for="genero">Género favorito:</label>
+          <select id="genero" name="genero">
+            <option value="isekai">Isekai</option>
+            <option value="shonen" selected>Shonen</option>
+            <option value="comedia">Comedia</option>
+            <option value="terror">Terror</option>
+            <option value="seinen">Seinen</option>
+          </select>
+        </p>
+
+        <p>¿Qué animes de AnyAnime has visto?</p>
+        <p>
+          <input type="checkbox" id="visto-sao" name="vistos" value="sword-art-online">
+          <label for="visto-sao">Sword Art Online</label>
+          <input type="checkbox" id="visto-jjk" name="vistos" value="jujutsu-kaisen">
+          <label for="visto-jjk">Jujutsu Kaisen</label>
+          <input type="checkbox" id="visto-gintama" name="vistos" value="gintama">
+          <label for="visto-gintama">Gintama</label>
+          <input type="checkbox" id="visto-another" name="vistos" value="another">
+          <label for="visto-another">Another</label>
+        </p>
+
+        <p>¿Cada cuánto ves anime?</p>
+        <p>
+          <input type="radio" id="frecuencia-diario" name="frecuencia" value="diario">
+          <label for="frecuencia-diario">A diario</label>
+          <input type="radio" id="frecuencia-semanal" name="frecuencia" value="semanal" checked>
+          <label for="frecuencia-semanal">Cada semana</label>
+          <input type="radio" id="frecuencia-ocasional" name="frecuencia" value="ocasional">
+          <label for="frecuencia-ocasional">De vez en cuando</label>
+        </p>
+
+        <p>
+          <label for="comentario">¿Qué anime te gustaría que reseñáramos y por qué?</label><br>
+          <textarea id="comentario" name="comentario" rows="5" cols="50" required minlength="10" maxlength="500" placeholder="Ej.: Me gustaría ver una reseña de Death Note porque..."></textarea>
+        </p>
+      </fieldset>
+
+      <!-- Botones de envío y borrado -->
+      <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+      </p>
+
+    </form>
+  </div>
+
+  <hr>
+  <!-- Pie de página: copyright y autor -->
+  <div>
+    <p>&copy; 2026 Ángel &middot; AnyAnime</p>
+    <p>Hecho con &hearts; para los fans del anime.</p>
+  </div>
+
+</body>
+</html>
