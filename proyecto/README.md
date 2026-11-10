@@ -56,3 +56,4 @@
 ---
 
 ## UD5 · Tablas y formularios
+| Añadida tabla de personajes principales de los animes de AnyAnime
