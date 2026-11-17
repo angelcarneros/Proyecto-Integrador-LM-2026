@@ -50,7 +50,25 @@
       </fieldset>
 
 
-      <!-- Fieldset 2: sugerencia y opinión sobre anime -->
+      <!-- Fieldset 2: hábitos del usuario y valoración de la web -->
+      <fieldset>
+        <legend>Tú y el anime</legend>
+        <p>
+          <label for="inicio">¿Cuándo empezaste a ver anime?</label>
+          <input type="date" id="inicio" name="inicio" min="1990-01-01" max="2026-11-17">
+        </p>
+        <p>
+          <label for="episodios">Episodios que ves a la semana:</label>
+          <input type="number" id="episodios" name="episodios" min="0" max="100" step="1" placeholder="Ej.: 5">
+        </p>
+        <p>
+          <label for="valoracion">Valora AnyAnime del 1 al 10:</label>
+          <input type="range" id="valoracion" name="valoracion" min="1" max="10" step="1" value="7">
+        </p>
+      </fieldset>
+
+
+      <!-- Fieldset 3: sugerencia y opinión sobre anime -->
       <fieldset>
         <legend>Tu sugerencia</legend>
         <p>
