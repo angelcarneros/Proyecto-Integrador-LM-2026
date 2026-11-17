@@ -57,3 +57,27 @@
 
 ## UD5 · Tablas y formularios
 - Añadida tabla de personajes principales de los animes de AnyAnime
+
+---
+
+## UD6 · HTML5 semántico, formularios y multimedia
+
+### Reto 1 · Estructura semántica
+
+- `index.html` y `descripcion-swordartonline.html` pasan a la estructura de HTML5: `header` con logo y `nav`, un único `main`, `section`, `article`, `aside` y `footer`.
+- Eliminados los `div` que solo servían para maquetar en esas páginas.
+- `meta author` con mi usuario y firma `<p id="firma-angelcarneros">` en el `footer` de todas las páginas.
+
+### Reto 2 · Formulario HTML5
+
+- Formulario de `contacto.html` con 6 tipos de input de HTML5: `email`, `url`, `tel`, `date`, `number` y `range`, además de `select`, `checkbox`, `radio` y `textarea`.
+- Atributos de validación: `required`, `placeholder`, `min`/`max`/`step`, `minlength`/`maxlength` y un `pattern` para el teléfono (9 dígitos empezando por 6, 7, 8 o 9) con su `title` explicativo.
+- Cada campo con su `<label for="…">`.
+- Sección "Notas de nuestras reseñas" con un `meter` por anime para mostrar su valoración sobre 10.
+
+### Reto 3 · Multimedia e interactivos
+
+- `audio` con `controls` y dos `source` (OGG y MP3) guardados en `media/`, con texto alternativo y enlace de descarga.
+- Tráileres oficiales de YouTube insertados con `iframe` en cada género de la portada.
+- Portadas de los animes en `figure` con su `figcaption` (anime, estudio y año).
+- Sección de preguntas frecuentes con 4 `details`/`summary`, la primera abierta con `open` y una respuesta que muestra etiquetas escritas con `&lt;` y `&gt;`.
