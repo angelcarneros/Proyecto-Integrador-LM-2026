@@ -39,7 +39,9 @@
         </p>
         <p>
           <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono" maxlength="9" placeholder="600123456">
+          <input type="tel" id="telefono" name="telefono" maxlength="9" placeholder="600123456"
+                 pattern="[6789][0-9]{8}"
+                 title="9 dígitos sin espacios, empezando por 6, 7, 8 o 9 (Ej.: 600123456)">
         </p>
       </fieldset>
 
